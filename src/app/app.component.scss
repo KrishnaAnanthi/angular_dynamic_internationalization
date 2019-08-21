@@ -1,0 +1,22 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40vh auto;
+  h3 {
+    color: green;
+  }
+  div {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    button {
+      padding: 20px;
+      margin: 20px;
+      border: none;
+      background-color: aquamarine;
+    }
+  }
+}
